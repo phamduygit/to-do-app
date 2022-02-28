@@ -1,17 +1,13 @@
-# to_do_app
+# How to run this app
 
-A new Flutter project.
+To run this app command: flutter run
 
-## Getting Started
+# How to run test case
 
-This project is a starting point for a Flutter application.
+To run all unit tests, widget test command: flutter test
 
-A few resources to get you started if this is your first Flutter project:
+To run unit test for provider command: flutter test test/unit_test/list_task_test.dart
+To run unit test for local database command: flutter test test/unit_test/task_database_test.dart
+To run widget test for one screen: fluter test <path_to_file_test>
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# to-do-app
